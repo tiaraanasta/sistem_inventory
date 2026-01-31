@@ -1,0 +1,114 @@
+/* Font & Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Navbar Customization */
+.navbar {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #38bdf8 !important;
+}
+
+/* Dashboard Cards (Menu Utama) */
+.card-menu {
+    border: none;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.card-menu:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.icon-box {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #eff6ff;
+    border-radius: 12px;
+    margin: 0 auto 1.5rem;
+    font-size: 2rem;
+    color: #2563eb;
+    transition: background 0.3s;
+}
+
+.card-menu:hover .icon-box {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+/* Table Styles (Untuk Cek Stok & Laporan) */
+.table {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background-color: #f8fafc;
+    color: #64748b;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+/* Button Customization */
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.rounded-pill {
+    border-radius: 50px !important;
+}
+
+/* Keranjang Belanja & Form Transaksi */
+.card-header {
+    font-weight: 600;
+    border-bottom: none;
+    padding: 1.25rem;
+}
+
+.bg-primary { background-color: #2563eb !important; }
+.bg-success { background-color: #10b981 !important; }
+
+/* Alert & Notifications */
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Login Page Specific */
+.login-container {
+    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+                url('https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
