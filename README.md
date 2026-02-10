@@ -1,4 +1,4 @@
-Sistem Manajeman dan Stok Toko Sederhana
+hSistem Manajeman dan Stok Toko Sederhana
 Kelompok 8
 - Dimas Rizqi Fauzan
 - Tiara Putri Anastasya
@@ -50,5 +50,8 @@ Kelompok 8
      - Transaksi Penjualan
      - Laporan Penjualan
      - Manajemen Karyawan
+
+
+  https://sg.docworkspace.com/d/sbCairtDqC7dNuPz_vw9uv052bw9mrk9ezw?sa=601.1074
   
     
